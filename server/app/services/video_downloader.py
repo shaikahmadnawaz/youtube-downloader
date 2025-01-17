@@ -7,7 +7,7 @@ async def download_video(url: HttpUrl, background_tasks: BackgroundTasks):
     """
     Downloads a video from YouTube in high quality using yt-dlp and merges streams.
     """
-    output_dir = "./downloads/"
+    output_dir = "./downloads/videos/"
     os.makedirs(output_dir, exist_ok=True)
 
     # High-quality video and audio with merging

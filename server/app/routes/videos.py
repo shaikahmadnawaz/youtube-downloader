@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException, BackgroundTasks
-from app.services.downloader import download_video
+from app.services.video_downloader import download_video
 from app.schemas.video import VideoRequest, VideoResponse
 
 router = APIRouter()
